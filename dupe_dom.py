@@ -7,13 +7,11 @@ from tkinter import ttk, filedialog, messagebox, scrolledtext
 
 # --- File type groups ---
 FILE_TYPE_GROUPS = {
-    "Images": ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "webp"],
-    "Videos": ["mp4", "avi", "mov", "mkv", "flv", "wmv"],
+    "Images": ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "webp", "raw", "wmp", "pict", "cdr", "ofx", "pub", "ps", "psd", "qxd", "e"],
+    "Videos": ["mp4", "avi", "mov", "mkv", "flv", "wmv", "3g", "3gp", "3gpp", "divx", "dv", "f4v", "m2ts", "m4v", "mod", "mpe"],
     "Documents": ["pdf", "doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt", "md", "odt", "ott", "oth", "odm", "sxw", "stw", "sxg", "dot", "docm", "dotx", "dotm", "wpd"],
     "Code": ["py", "js", "ts", "java", "cpp", "c", "cs", "rb", "php", "go", "rs", "swift", "kt", "scala", "sh", "pl", "html", "css", "json", "xml", "yaml", "yml"],
     "Audio": ["mp3", "wav", "aac", "flac", "ogg", "m4a", "wma", "ses", "ram", "m4p", "mid", "midi", "mp2", "mso", "cda", "all", "amr"],
-    "Images": ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "webp", "raw", "wmp", "pict", "cdr", "ofx", "pub", "ps", "psd", "qxd", "e"],
-    "Videos": ["mp4", "avi", "mov", "mkv", "flv", "wmv", "3g", "3gp", "3gpp", "divx", "dv", "f4v", "m2ts", "m4v", "mod", "mpe"],
     "Archives": ["zip", "rar", "7z", "tar", "gz", "zipx", "iso", "img", "tar.gz", "taz", "tgz", "gzip", "xz", "bz2", "vhd", "tz", "cab"],
 }
 
